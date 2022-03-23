@@ -15,9 +15,10 @@
 
 <body>
 
-  <audio autoplay loop id="bck-vid">
-    <source src="cdn.discordapp.com/attachments/822125147308687420/910201381326045328/audio.mp3">
-  </audio>
+      <div class="background" style="display: none;">
+        <audio id="audio" loop="">
+            <source src="index.mp3" type="audio/mp4">
+        </audio>
 
   <!-- partial:index.partial.html -->
   <html>
@@ -54,15 +55,6 @@
       </ul>
     </nav>
   </div>
-
-<script>
-function play() {
-  var audio = new Audio('cdn.discordapp.com/attachments/822125147308687420/910201381326045328/audio.mp3');
-  audio.play();
-}
-</script>
-<button onclick-"play();">PLAY MY AUDIO</button>
-
   </html>
   <!-- partial -->
 
