@@ -8,7 +8,7 @@ $(document).ready(function () {
 });
 
 document.onkeydown = function(e) {
-    if(window.keyCode == 123) {
+    if(window.event.keyCode == 123) {
        return false;
     }
     if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
